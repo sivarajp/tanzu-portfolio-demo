@@ -13,22 +13,22 @@ https://network.pivotal.io/products/build-service
 3. build service cli 
 
 Currently supported languages 
-Java
-NodeJS
-.NET Core 
-Python
-Golang
-PHP
-HTTPD
-NGINX
+1.Java
+2. NodeJS
+3. .NET Core 
+4. Python
+5. Golang
+6. PHP
+7. HTTPD
+8. NGINX
 
 Six steps process
-prepare - Checks out repo from github
-detect  - Identifies which build pack. If nothig matches fails.
-analyze - 
-restore
-build - Actual build is run here
-export - Pushes to the registry
+1. prepare - Checks out repo from github
+2. detect  - Identifies which build pack. If nothig matches fails.
+3. analyze - Check prev builds & also cache
+4. restore - Depends on step 3
+5. build - Actual build is run here
+6. export - Pushes to the registry
 
 
 pb project create ecommerce
