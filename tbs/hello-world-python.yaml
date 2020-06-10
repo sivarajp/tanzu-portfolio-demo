@@ -1,0 +1,11 @@
+source:
+ git:
+   url: https://github.com/sivarajp/demo-ml
+   revision: dev
+build:
+  env: []
+image:
+ tag: index.docker.io/sivarajp/demo-ml
+
+
+

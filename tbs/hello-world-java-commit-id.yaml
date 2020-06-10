@@ -1,0 +1,9 @@
+source:
+  git:
+    url: https://github.com/sivarajp/sample-java-app
+    revision: 25b3fcb886e8c6589cab9f8d7a7767cf66bff8e2
+ build:
+   env: []
+ image:
+  tag: index.docker.io/sivarajp/sample-java-app
+ 

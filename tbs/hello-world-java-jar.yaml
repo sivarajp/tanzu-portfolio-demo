@@ -1,0 +1,11 @@
+source:
+     blob:
+       url: https://siva-vmw.s3.us-east-2.amazonaws.com/sample-0.0.1-SNAPSHOT.jar
+build:
+  env: []
+image:
+ tag: index.docker.io/sivarajp/sample-java-app
+   
+   
+   
+   

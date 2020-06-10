@@ -1,0 +1,4 @@
+project: ecommerce
+registry: https://index.docker.io/v1/
+username: sivarajp
+password: {{DOCKER_TOKEN}}
