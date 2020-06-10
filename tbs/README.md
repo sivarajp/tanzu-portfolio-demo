@@ -13,14 +13,14 @@ https://network.pivotal.io/products/build-service
 3. build service cli 
 
 Currently supported languages 
-1.Java
-2. NodeJS
+1. Java 
+2. NodeJS 
 3. .NET Core 
-4. Python
-5. Golang
-6. PHP
-7. HTTPD
-8. NGINX
+4. Python 
+5. Golang 
+6. PHP 
+7. HTTPD 
+8. NGINX 
 
 Six steps process
 1. prepare - Checks out repo from github
