@@ -34,7 +34,7 @@ Six steps process
 pb project create ecommerce 
 pb project target ecommerce 
 
-pb secrets registry apply -f ecommerce-registry.yaml 
+pb secrets registry apply -f ecommerce-registry.yaml  
 pb secrets git apply -f  ecommerce-repo.yaml 
 
 Deploy the 3 types of images - Github Branch, Commit id, Blob, and apply each and talk about it
